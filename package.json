@@ -1,6 +1,6 @@
 {
   "name": "beast-stencil-app",
-  "author": "Adrián Velasco",  
+  "author": "Adrián Velasco",
   "version": "1.0.0",
   "description": "The BEAST Stencil App",
   "module": "dist/esm/index.js",
@@ -33,5 +33,8 @@
     "@stencil/utils": "0.0.4",
     "@types/jest": "^22.2.3",
     "jest": "^22.4.4"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1"
   }
 }
