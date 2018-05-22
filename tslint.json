@@ -1,0 +1,59 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "rules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    },
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "no-unused-variable": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "trailing-comma": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "no-var-requires": false,
+    "no-empty-interface": true,
+    "no-magic-number": true,
+    "no-any": true,
+    "new-parens": true,
+    "no-arg": true,
+    "object-literal-sort-keys": false,
+    "no-bitwise": true,
+    "no-conditional-assigment": true,
+    "no-consecutive-blank-lines": false,
+    "object-literal-shorthand": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "react/no-children-prop": 0,
+    "react/jsx-no-comment-textnodes": 0,
+    "no-use-before-define": "off"
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    }
+  }
+}

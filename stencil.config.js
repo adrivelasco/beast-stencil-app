@@ -1,5 +1,6 @@
 exports.config = {
   namespace: 'beast-stencil-app',
+  srcDir: 'src/client',
   outputTargets: [
     { 
       type: 'dist'
