@@ -1,8 +1,9 @@
 'use strict';
-
-require('dotenv').config();
-
-const app = require('./app');
-const port = 3030;
-
-app.listen(port, () => console.log(`Nodejs server listening on port ${port}. (${process.env.NODE_ENV})`));
+exports.__esModule = true;
+var dotenv = require("dotenv");
+dotenv.config();
+var app_1 = require("./app");
+var config_1 = require("./config");
+app_1["default"].listen(config_1["default"].port, function () {
+    return console.log("Nodejs server listening on port " + config_1["default"].port + ". (" + config_1["default"].env + ")");
+});
